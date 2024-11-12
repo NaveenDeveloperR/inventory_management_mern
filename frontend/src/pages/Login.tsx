@@ -5,7 +5,7 @@ import { Link, useNavigate } from 'react-router-dom'
 import * as yup from 'yup'
 import { useLoginUserMutation } from '../provider/queries/Auth.query'
 import { toast } from 'sonner'
-import ReCAPTCHA from "react-google-recaptcha";
+// import ReCAPTCHA from "react-google-recaptcha";
 const Login = () => {
 const [LoginUser,LoginUserResponse] = useLoginUserMutation()
 const navigate = useNavigate()
@@ -63,7 +63,7 @@ const navigate = useNavigate()
 
       <div className='min-h-screen flex items-center justify-center w-full bg-[#eee]'>
         <Formik initialValues={initialValues} validationSchema={validationSchema} onSubmit={OnSubmitHandler}>
-          {({ values, setFieldValue, handleSubmit }) => (
+          {({ handleSubmit }) => (
             <>
               <form onSubmit={handleSubmit} className="w-[96%] md:w-[70%] lg:w-1/3 shadow-md rounded-md pt-10 pb-3 px-4 bg-white">
                 <div className="mb-3 py-1">
