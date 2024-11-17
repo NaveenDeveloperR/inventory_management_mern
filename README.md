@@ -15,7 +15,7 @@ Here is a screenshot of the **Dashboard** page, which provides an overview of th
 
 Here is a screenshot of the **Order Page**, where users can manage and track orders.
 
-![Order Screenshot](https://github.com/NaveenDeveloperR/inventory_management_mern/blob/main/Inventory%20Management%20Images/Screenshot%202024-11-17%20161651.png)
+![Order Screenshot](https://github.com/NaveenDeveloperR/inventory_management_mern/blob/main/Inventory%20Management%20Images/Screenshot%202024-11-17%20161637.png)
 
 ## User Page
 
